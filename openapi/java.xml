@@ -46,7 +46,7 @@
                   </importMappings>
                   <configOptions>
                     <invokerPackage>io.kubernetes.client.openapi</invokerPackage>
-                    <defaultToEmptyContainer>array</defaultToEmptyContainer>
+                    <additional-properties>defaultToEmptyContainer=""</additional-properties>
                   </configOptions>
                 </configuration>
               </execution>
