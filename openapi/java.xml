@@ -31,7 +31,7 @@
                   <generateModelDocumentation>false</generateModelDocumentation>
                   <openapiNormalizer>SET_CONTAINER_TO_NULLABLE="array|map"</openapiNormalizer>
                   <additionalProperties>
-                      defaultToEmptyContainer="?array?|?map?"
+                      defaultToEmptyContainer=?array?|?map?
                   </additionalProperties>
                   <importMappings>
                     V1ListMeta=io.kubernetes.client.openapi.models.V1ListMeta,
