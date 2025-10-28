@@ -29,7 +29,7 @@
                 <configuration>
                   <generateApis>${env.GENERATE_APIS}</generateApis>
                   <generateModelDocumentation>false</generateModelDocumentation>
-                  <additionalProperties>defaultToEmptyContainer="?array|?map"</additionalProperties>
+                  <additionalProperties>defaultToEmptyContainer=""</additionalProperties>
                   <importMappings>
                     V1ListMeta=io.kubernetes.client.openapi.models.V1ListMeta,
                     V1ObjectMeta=io.kubernetes.client.openapi.models.V1ObjectMeta,
